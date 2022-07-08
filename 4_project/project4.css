@@ -6,8 +6,8 @@
 
   .header {
     width: 100%;
-    padding: 35px;
-    z-index: 1;
+    height: 140px;
+    z-index: 10;
    
     display: flex;
     position: fixed;
@@ -52,57 +52,28 @@
     color: #E50043;
 }
 .logo {
-    position: absolute;
-    width: 1440px;
+    border: 3px solid black;
+    width: 100%;
+    margin-top: 75px;
     height: 950px;
-    left: 0px;
-    top: 140px;
+    background-position: 50%;
+    background-image: url(images/evian_origins_logo.png) 
+
+    
 }
 
-.type1 {
-    position: absolute;
-    width: 281px;
-    height: 863px;
-    left: 200px;
-    top: 1670px;
-}
-.type2 {
-    position: absolute;
-    width: 279px;
-    height: 863px;
-    left: 581px;
-    top: 1670px;
-}
-.type3 {
-    position: absolute;
-    width: 279px;
-    height: 863px;
-    left: 960px;
-    top: 1670px;
-}
-.description1 {
-    position: absolute;
-    width: 268px;
-    height: 58px;
-    left: 200px;
-    top: 2581px;
-}
-.description2 {
-    position: absolute;
-    width: 249px;
-    height: 58px;
-    left: 601px;
-    top: 2575px;
+  h4 {
+    font-family: 'Arial';
+    font-size: 25px;
+    font-weight: 100;
+    line-height: 29px;
+    letter-spacing: 0.05em;
+  }
+  
 
-}
-.description3 {
-    position: absolute;
-    width: 237px;
-    height: 58px;
-    left: 987px;
-    top: 2575px
-}
-.description1,.description2,.description3  {
+.bottle {
+
+   align-items: flex-start;
     font-family: 'Arial';
     font-size: 25px;
     line-height: 29px;
@@ -110,60 +81,51 @@
     align-items: center;
     text-align: center;
     color: #000000;
+    
 }
 
-.text1 {
-    position: absolute;
-    width: 1040px;
-    height: 280px;
-    left: 201px;
-    top: 1240px;    
-    padding-top: 20px;
-    padding-left: 15px;
-    padding-right: 5px;
-}
-.lower-text {
-    display:flex;
-    position: relative;
-    width: 1040px;
-    height: 280px;
-    left: 201px;
-    top: 2789px;
-}
-.glass-type {
-    position: absolute;
-    width: 101px;
-    height: 220px;
-    left: 85px;
-    top: 25px;
-}
-.text2 {
-    position: absolute;
-    width: 749px;
-    height: 220px;
-    left: 272px;
-    padding-top: 15px;
-}
-.lower-text, .text1 {
+.border {
+    margin-top: 150px;
+    margin-bottom: 150px;
+    list-style-type: none;
     border: 3px solid #F8BFC7;
     border-radius: 20px;
-}
-.text1, .text2 {
     font-family: 'Arial';
     font-size: 25px;
     line-height: 29px;
-    list-style-type: none;
-    letter-spacing: 0.06em;
-    color: #000000;
+    letter-spacing: 0.05em;
+    padding: 10px
+   
+    
 }
 
-.footer {
+
+.common {
+    width: 1040px;
+    position: relative;
+    left: 195px
+}
+.border-flex{
     display: flex;
-    position: absolute;
-    width: 1440px;
+    
+    
+ }
+ .bottles-container {
+        justify-content: space-between;
+        display: flex;
+    }
+ .bottle1,.bottle2,.bottle3 {
+     width: 281px;
+    font-family: 'Arial';
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+ }
+
+.footer {
+    width: 100%;
     height: 140px;
-    left: 0px;
-    top: 3219px;
+   
     color: #FFFFFF;
     background: #F8BFC7;
     font-family: 'Arial';
@@ -172,6 +134,7 @@
     font-size: 50px;
     line-height: 57px;
     align-items: center;
-    padding: 25px
+    padding: 30px
 }
-    
+   
+   
