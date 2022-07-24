@@ -1,0 +1,129 @@
+.body {
+    width: 100%;
+    height: 640px;
+    background-repeat: no-repeat;
+    background-image: url(background.png)
+}
+.header, .footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%px;
+    height: 90px;
+    background: #F8BFC7;
+}
+.central-block {
+    display: flex;
+    background-image: url(background.png);
+    height: 640px;
+  }
+.menu {
+    padding: 0 50px 0 50px;
+  }
+  .menu > li {
+    margin-right: 30px;
+    display:inline
+  }
+  .menu > li:last-of-type {
+    margin-left: 810px;
+    margin-right: 0;
+    
+  }
+  .menu li > a, .footer h1{
+    font-family: 'Helvetica';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+  }
+  .menu li :hover {
+    text-decoration: underline;
+  }
+  .menu li :active {
+    color: red;
+  }
+  .client-form {
+    height: 80%;
+  }
+  .main-form{
+    margin: 70px 0 10px 90px;
+    width: 300px;
+    height: 362px;
+    background: #F8BFC7;
+    border: 3px solid #FFFFFF;
+    border-radius: 20px;
+}
+  .form-row {
+    margin-left: 10px;
+    margin-top: 16px;
+}
+  .form-row label {
+    height: 23px;
+    font-family: 'Helvetica';
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.form-row input {
+    margin-top: 16px;
+    border: none;
+    border-bottom: 1px solid white;
+    width: 90%;
+    height: 23px;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    line-height: 23px;
+    color: white;
+    background-color: #F8BFC7;;
+    display: flex;
+    align-items: center;
+}
+.form-row input[type="text"]:invalid,
+.form-row input[type="email"]:invalid {
+    color: red;
+    box-shadow: none;
+}
+.form-row ::-webkit-input-placeholder{
+    color: #FFFFFF;
+}
+.form-row button {
+    width: 200px;
+    height: 60px;
+    margin-left: 140px;
+    background: #FEB700;
+    border: 3px solid #FFFFFF;
+    border-radius: 30px;
+}
+.slogan {
+    position: absolute;
+    left: 300px;
+    top: 670px;
+    height: 57px;
+    font-family: 'Helvetica';
+    font-size: 30px;
+    text-transform: uppercase;
+    line-height: 57px;
+    display: flex;
+    align-items: center;
+    color: #FEB700;
+  }
+.footer h1{
+    color: #FFFFFF;
+    margin: 0 50px 0 50px;
+  }
+ 
+  
+  @media only screen and (max-width: 950px) {
+    .menu > li:last-of-type {
+        margin-left: 200px;
+        margin-right: 0;
+      }
+      .slogan {
+        left: 150px;
+        font-size: 20px;
+      }
+}
