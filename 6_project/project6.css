@@ -38,10 +38,10 @@
      margin-right: 30px;
      display:inline
   }
-  .menu :hover,  .menu-button :hover{
+  nav a:hover{
     text-decoration: underline;
   }
-  .menu :active,  .menu-button :active{
+  nav a:active {
     color: red;
   }
   .central-block {
@@ -98,7 +98,7 @@
 .form-row button {
     width: 200px;
     height: 60px;
-    margin-left: 140px;
+    margin-left: 135px;
     background: #FEB700;
     border: 3px solid #FFFFFF;
     border-radius: 30px;
@@ -125,4 +125,11 @@
         left: 150px;
         font-size: 20px;
       }
-}
+    }
+  @media only screen and (min-width: 1025px) and (max-width: 1240px) {
+       .slogan {
+        font-size: 25px;
+        left: 200px;
+       }
+        
+      }
