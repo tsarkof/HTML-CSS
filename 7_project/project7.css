@@ -11,28 +11,25 @@
     justify-content: center;
     align-items: center;
     text-transform: uppercase;
-
-
     background: #FFE138;
 }
 .blocks {
     display: flex;
-    justify-content: space-between;
-    margin: 70px 
+    justify-content: center;
+    margin: 70px 0 70px 0;
+    align-items: flex-start  
 }
 .box {
-    box-sizing: border-box;
     display: flex;
     border: 2px solid black;
     flex-wrap: wrap;
-    width: 434px;
-    height: auto;
-    margin: 0 20px 0 20px;
+    width: 30%;
+    margin: 0 25px;
 }
 .illustration {
         width: 100%;
-        display: block;
-        margin: 0
+        object-fit: cover;
+        max-height: 430px;
       }
 .text {
     display: flex;
@@ -41,15 +38,12 @@
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 25px;
-    height: auto;
-    width: auto;
-}
-.text h4 {
-    margin-top: 10px;
+    line-height: 35px;
+    margin: 15px
 }
 .text2 {
     justify-content: flex-start;
     list-style-type: none;
     font-style: italic;
+    margin-left: 0;
 }
